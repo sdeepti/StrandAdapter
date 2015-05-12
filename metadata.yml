@@ -9,3 +9,22 @@ url: http://mpss.udel.edu/
 description: 'Arabidopsis thalaiana strand information'
 whitelist:
   - mpss.udel.edu
+validate_request:true
+summary:Small RNA basic metadata
+description:Basic metadata
+parameters:
+- name:site
+description:Site
+type:string
+required:true
+enum:
+ - at_sRNA
+- name:list
+description:List
+type:string
+required:true
+enum:
+	-strand
+	-expression
+	-genomic
+

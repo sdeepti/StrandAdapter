@@ -16,17 +16,14 @@ def search(arg):
     # The output may be ordered differently than the input.
     # In particular, the "sequence" tuple may be buried in the list.
 
-    input_site = arg['site']
-    input_list = arg['list']
-
     # Expect JSON argument like this python command.
     # Example:
     # main.search({'site': 'at_sRNA', 'list': 'strand'})
     # That equates to this URL.
-    # 'http://mpss.udel.edu/web/php/pages/json.php?SITE=at_sRNA&list=strand&format=json'
+    # 'http://mpss.udel.edu/dbs/json.php?&list=strand&format=json'
 
     # The remote service takes additional parameters that we will pass from input args
-    url = ('http://mpss.udel.edu/web/php/pages/json.php?SITE={site}&list={list}&format=json'.format(site=input_site, list=input_list))
+    url = ('http://mpss.udel.edu/dbs/json.php?&list=strand&format=json')
 
     rqst = requests.get(url)
 

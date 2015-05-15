@@ -18,7 +18,7 @@ def search(arg):
 
     # Expect JSON argument like this python command.
     # Example:
-    # main.search({'site': 'at_sRNA', 'list': 'strand'})
+    # main.search({'list': 'strand'})
     # That equates to this URL.
     # 'http://mpss.udel.edu/dbs/json.php?&list=strand&format=json'
 

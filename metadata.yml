@@ -2,7 +2,7 @@
 
 ---
 name: strand
-version: 0.5
+version: 0.6
 type: query
 main_module: main.py
 url: http://mpss.udel.edu/

@@ -6,5 +6,8 @@ version: 0.5
 type: query
 main_module: main.py
 url: http://mpss.udel.edu/
-description: 'Strand values used in all our websites/dbs.'
-
+description: Basic Metadata
+endpoints:
+  /search:
+    summary: Small RNA basic metadata
+    description: 'Strand values used in all meyerslab websites/dbs' 

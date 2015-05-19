@@ -7,3 +7,6 @@ type: query
 main_module: main.py
 url: http://mpss.udel.edu/
 description: Strand values used in all meyerslab websites/dbs
+whitelist:
+  - mpss.udel.edu
+

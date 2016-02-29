@@ -23,7 +23,7 @@ def search(arg):
     # 'http://mpss.udel.edu/dbs/json.php?&list=strand&format=json'
 
     # The remote service takes additional parameters that we will pass from input args
-    url = ('http://mpss.udel.edu/dbs/json.php?&list=strand&format=json')
+    url = ('http://mpss.danforthcenter.org/dbs/json.php?&list=strand&format=json')
 
     rqst = requests.get(url)
 
